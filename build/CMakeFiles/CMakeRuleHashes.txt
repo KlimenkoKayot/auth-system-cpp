@@ -1,0 +1,4 @@
+# Hashes of file build rules.
+d3ffb88306dfb6f9e2fbbdcbc6642728 signin.h
+de05721ae56f323a1c640d6b4026313b signup.h
+923a0750024b28c7192a680b00026a2e welcome.h

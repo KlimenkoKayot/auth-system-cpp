@@ -1,0 +1,14 @@
+{
+    "rdbms": "postgresql",
+    "host": "127.0.0.1",
+    "port": 5432,
+    "dbname": "tsl_employee",
+    "schema": "public",
+    "user": "postgres",
+    "password": "pass123",
+    "tables": [],
+    "relationships": {
+        "enabled": false,
+        "items": []
+    }
+}

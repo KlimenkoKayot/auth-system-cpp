@@ -1,0 +1,6 @@
+/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles/auth-system-cpp.dir
+/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles/edit_cache.dir
+/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles/rebuild_cache.dir
+/home/kayotklimenko/code/auth-system-cpp/build/test/CMakeFiles/test_drogon_test.dir
+/home/kayotklimenko/code/auth-system-cpp/build/test/CMakeFiles/edit_cache.dir
+/home/kayotklimenko/code/auth-system-cpp/build/test/CMakeFiles/rebuild_cache.dir
