@@ -3,6 +3,9 @@
 #include <iostream>
 using namespace drogon;
 
+
+    // Создание database для обработки запросов
+    
 // sudo docker stop $(sudo docker ps -a -q)
 // sudo docker rm $(sudo docker ps -a -q)
 // sudo docker run --name postgresCont -e POSTGRES_PASSWORD=pass123 -p 5432:5432 -d postgres
@@ -17,10 +20,7 @@ using namespace drogon;
 int main() {
     const int SERVER_PORT = 8080;
 
-    // Создание database для обработки запросов
-    // подробнее: /models/database.sql
-    
-    const std::string POSTGRES_CONN = "host=localhost port=5432 dbname=tsl_employee connect_timeout=10 user='postgres' password='pass123'";
+    // const std::string POSTGRES_CONN = "host=localhost port=5432 dbname=tsl_employee connect_timeout=10 user='postgres' password='pass123'";
     // drogon::orm::DbClientPtr dbClient = drogon::orm::DbClient::newPgClient(POSTGRES_CONN, 10);
 
     drogon::app().createDbClient("postgresql",  // type

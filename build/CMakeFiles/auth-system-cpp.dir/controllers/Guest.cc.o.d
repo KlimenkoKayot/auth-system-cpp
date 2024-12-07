@@ -269,9 +269,7 @@ CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o: \
  /usr/local/include/drogon/nosql/RedisSubscriber.h \
  /usr/local/include/trantor/net/Resolver.h \
  /home/kayotklimenko/code/auth-system-cpp/controllers/../filters/SessionFilter.h \
- /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/sha256/sha256.cpp \
  /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/sha256/sha256.h \
- /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/validate/user.cpp \
  /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/validate/user.h \
  /usr/local/include/drogon/drogon.h \
  /usr/local/include/drogon/HttpClient.h \
@@ -305,5 +303,4 @@ CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o: \
  /usr/local/include/drogon/IntranetIpFilter.h \
  /usr/local/include/drogon/LocalHostFilter.h \
  /usr/local/include/drogon/IOThreadStorage.h \
- /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/smanager/smanager.cpp \
  /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/smanager/smanager.h

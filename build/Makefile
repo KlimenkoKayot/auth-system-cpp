@@ -166,6 +166,30 @@ controllers/Guest.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.s
 .PHONY : controllers/Guest.cc.s
 
+controllers/User.o: controllers/User.cc.o
+.PHONY : controllers/User.o
+
+# target to build an object file
+controllers/User.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o
+.PHONY : controllers/User.cc.o
+
+controllers/User.i: controllers/User.cc.i
+.PHONY : controllers/User.i
+
+# target to preprocess a source file
+controllers/User.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/User.cc.i
+.PHONY : controllers/User.cc.i
+
+controllers/User.s: controllers/User.cc.s
+.PHONY : controllers/User.s
+
+# target to generate assembly for a file
+controllers/User.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/User.cc.s
+.PHONY : controllers/User.cc.s
+
 filters/SessionFilter.o: filters/SessionFilter.cc.o
 .PHONY : filters/SessionFilter.o
 
@@ -190,6 +214,78 @@ filters/SessionFilter.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.s
 .PHONY : filters/SessionFilter.cc.s
 
+includes/sha256/sha256.o: includes/sha256/sha256.cpp.o
+.PHONY : includes/sha256/sha256.o
+
+# target to build an object file
+includes/sha256/sha256.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o
+.PHONY : includes/sha256/sha256.cpp.o
+
+includes/sha256/sha256.i: includes/sha256/sha256.cpp.i
+.PHONY : includes/sha256/sha256.i
+
+# target to preprocess a source file
+includes/sha256/sha256.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.i
+.PHONY : includes/sha256/sha256.cpp.i
+
+includes/sha256/sha256.s: includes/sha256/sha256.cpp.s
+.PHONY : includes/sha256/sha256.s
+
+# target to generate assembly for a file
+includes/sha256/sha256.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.s
+.PHONY : includes/sha256/sha256.cpp.s
+
+includes/smanager/smanager.o: includes/smanager/smanager.cpp.o
+.PHONY : includes/smanager/smanager.o
+
+# target to build an object file
+includes/smanager/smanager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o
+.PHONY : includes/smanager/smanager.cpp.o
+
+includes/smanager/smanager.i: includes/smanager/smanager.cpp.i
+.PHONY : includes/smanager/smanager.i
+
+# target to preprocess a source file
+includes/smanager/smanager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.i
+.PHONY : includes/smanager/smanager.cpp.i
+
+includes/smanager/smanager.s: includes/smanager/smanager.cpp.s
+.PHONY : includes/smanager/smanager.s
+
+# target to generate assembly for a file
+includes/smanager/smanager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.s
+.PHONY : includes/smanager/smanager.cpp.s
+
+includes/validate/user.o: includes/validate/user.cpp.o
+.PHONY : includes/validate/user.o
+
+# target to build an object file
+includes/validate/user.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o
+.PHONY : includes/validate/user.cpp.o
+
+includes/validate/user.i: includes/validate/user.cpp.i
+.PHONY : includes/validate/user.i
+
+# target to preprocess a source file
+includes/validate/user.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.i
+.PHONY : includes/validate/user.cpp.i
+
+includes/validate/user.s: includes/validate/user.cpp.s
+.PHONY : includes/validate/user.s
+
+# target to generate assembly for a file
+includes/validate/user.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.s
+.PHONY : includes/validate/user.cpp.s
+
 main.o: main.cc.o
 .PHONY : main.o
 
@@ -213,6 +309,30 @@ main.s: main.cc.s
 main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/main.cc.s
 .PHONY : main.cc.s
+
+openspace.o: openspace.cc.o
+.PHONY : openspace.o
+
+# target to build an object file
+openspace.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/openspace.cc.o
+.PHONY : openspace.cc.o
+
+openspace.i: openspace.cc.i
+.PHONY : openspace.i
+
+# target to preprocess a source file
+openspace.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/openspace.cc.i
+.PHONY : openspace.cc.i
+
+openspace.s: openspace.cc.s
+.PHONY : openspace.s
+
+# target to generate assembly for a file
+openspace.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/openspace.cc.s
+.PHONY : openspace.cc.s
 
 signin.o: signin.cc.o
 .PHONY : signin.o
@@ -299,12 +419,27 @@ help:
 	@echo "... controllers/Guest.o"
 	@echo "... controllers/Guest.i"
 	@echo "... controllers/Guest.s"
+	@echo "... controllers/User.o"
+	@echo "... controllers/User.i"
+	@echo "... controllers/User.s"
 	@echo "... filters/SessionFilter.o"
 	@echo "... filters/SessionFilter.i"
 	@echo "... filters/SessionFilter.s"
+	@echo "... includes/sha256/sha256.o"
+	@echo "... includes/sha256/sha256.i"
+	@echo "... includes/sha256/sha256.s"
+	@echo "... includes/smanager/smanager.o"
+	@echo "... includes/smanager/smanager.i"
+	@echo "... includes/smanager/smanager.s"
+	@echo "... includes/validate/user.o"
+	@echo "... includes/validate/user.i"
+	@echo "... includes/validate/user.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... openspace.o"
+	@echo "... openspace.i"
+	@echo "... openspace.s"
 	@echo "... signin.o"
 	@echo "... signin.i"
 	@echo "... signin.s"

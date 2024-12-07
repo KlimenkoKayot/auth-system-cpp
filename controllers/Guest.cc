@@ -1,7 +1,7 @@
 #include "Guest.h"
-#include "../includes/sha256/sha256.cpp"
-#include "../includes/validate/user.cpp"
-#include "../includes/smanager/smanager.cpp"
+#include "../includes/sha256/sha256.h"
+#include "../includes/validate/user.h"
+#include "../includes/smanager/smanager.h"
 #include <iostream>
 #include <trantor/utils/Date.h>
 
