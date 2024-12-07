@@ -36,7 +36,13 @@ void SessionFilter::doFilter(const HttpRequestPtr &req,
         }
     }
     // Новый пользователь, нужно перебросить на регистрацию
+    // 
+    //
+    //  TODO
+    //
+    //
+    // Сейчас перекидывает на логин всех пользователей
     std::cout << "first visit" << std::endl;    
-    auto resp = HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/guest/signup");
+    auto resp = HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/guest/signin");
     fcb(resp);
 }

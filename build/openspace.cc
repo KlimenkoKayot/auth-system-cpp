@@ -27,7 +27,7 @@ std::string openspace::genText(const DrTemplateData& openspace_view_data)
 	openspace_tmp_stream << "    <body style=\"color: var(--bs-body-bg);background: var(--bs-body-color);\">\n";
 	openspace_tmp_stream << "        <div class=\"d-flex flex-column justify-content-center align-items-center justif-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center\" style=\"position: absolute;width: 100%;height: 100%; color: var(--bs-body-bg); background: var(--bs-secondary-color);\">\n";
 	openspace_tmp_stream << "            <form class=\"text-center\" action=\"/user/logout\" method=\"post\">\n";
-	openspace_tmp_stream << "                <button class=\"btn btn-primary\" type=\"submit\">Войти</button>\n";
+	openspace_tmp_stream << "                <button class=\"btn btn-primary\" type=\"submit\">Выйти</button>\n";
 	openspace_tmp_stream << "            </form>\n";
 	openspace_tmp_stream << "        </div>\n";
 	openspace_tmp_stream << "        <script src=\"https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js\" integrity=\"sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz\" crossorigin=\"anonymous\"></script>\n";

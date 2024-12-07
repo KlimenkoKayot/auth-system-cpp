@@ -10,14 +10,6 @@
 
 using namespace std;
 
-void Guest::Welcome(const HttpRequestPtr &req, 
-    std::function<void(const HttpResponsePtr &)> &&callback) const
-{
-    HttpViewData data;
-    auto resp=HttpResponse::newHttpViewResponse("welcome.csp", data);
-    callback(resp);
-}
-
 void Guest::SignIn(const HttpRequestPtr &req,
     function<void(const HttpResponsePtr &)> &&callback,
     const std::string &login,
@@ -36,7 +28,7 @@ void Guest::SignIn(const HttpRequestPtr &req,
         */
        SessionManager::OpenSession(req, login);
 
-        callback(drogon::HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/openspace"));
+        callback(drogon::HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/user/openspace"));
         return;
     } else {
         std::cout << "try to login, but bad password... | " << login << std::endl;
@@ -75,7 +67,7 @@ void Guest::SignUp(const HttpRequestPtr &req,
         */
         SessionManager::OpenSession(req, login);
 
-        callback(drogon::HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/openspace"));
+        callback(drogon::HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/user/openspace"));
         return;
     }
 }

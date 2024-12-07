@@ -268,6 +268,7 @@ CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o: \
  /usr/local/include/drogon/nosql/RedisException.h \
  /usr/local/include/drogon/nosql/RedisSubscriber.h \
  /usr/local/include/trantor/net/Resolver.h \
+ /home/kayotklimenko/code/auth-system-cpp/controllers/../filters/SessionFilter.h \
  /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/smanager/smanager.h \
  /usr/local/include/drogon/drogon.h \
  /usr/local/include/drogon/HttpClient.h \

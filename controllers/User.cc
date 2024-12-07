@@ -16,6 +16,6 @@ void User::LogOut(const HttpRequestPtr &req,
 {
     // закрываем сессию
     SessionManager::CloseSession(req);
-    auto resp = HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/signin");
+    auto resp = HttpResponse::newRedirectionResponse("http://127.0.0.1:8080/guest/signin");
     callback(resp);
 }

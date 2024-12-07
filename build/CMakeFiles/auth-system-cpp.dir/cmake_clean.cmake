@@ -19,8 +19,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/auth-system-cpp.dir/signin.cc.o.d"
   "CMakeFiles/auth-system-cpp.dir/signup.cc.o"
   "CMakeFiles/auth-system-cpp.dir/signup.cc.o.d"
-  "CMakeFiles/auth-system-cpp.dir/welcome.cc.o"
-  "CMakeFiles/auth-system-cpp.dir/welcome.cc.o.d"
   "auth-system-cpp"
   "auth-system-cpp.pdb"
   "openspace.cc"
@@ -29,8 +27,6 @@ file(REMOVE_RECURSE
   "signin.h"
   "signup.cc"
   "signup.h"
-  "welcome.cc"
-  "welcome.h"
 )
 
 # Per-language clean rules from dependency scanning.

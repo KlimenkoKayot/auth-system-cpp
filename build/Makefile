@@ -382,30 +382,6 @@ signup.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/signup.cc.s
 .PHONY : signup.cc.s
 
-welcome.o: welcome.cc.o
-.PHONY : welcome.o
-
-# target to build an object file
-welcome.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/welcome.cc.o
-.PHONY : welcome.cc.o
-
-welcome.i: welcome.cc.i
-.PHONY : welcome.i
-
-# target to preprocess a source file
-welcome.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/welcome.cc.i
-.PHONY : welcome.cc.i
-
-welcome.s: welcome.cc.s
-.PHONY : welcome.s
-
-# target to generate assembly for a file
-welcome.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/welcome.cc.s
-.PHONY : welcome.cc.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -446,9 +422,6 @@ help:
 	@echo "... signup.o"
 	@echo "... signup.i"
 	@echo "... signup.s"
-	@echo "... welcome.o"
-	@echo "... welcome.i"
-	@echo "... welcome.s"
 .PHONY : help
 
 
