@@ -268,7 +268,7 @@ CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o: \
  /usr/local/include/drogon/nosql/RedisException.h \
  /usr/local/include/drogon/nosql/RedisSubscriber.h \
  /usr/local/include/trantor/net/Resolver.h \
- /home/kayotklimenko/code/auth-system-cpp/controllers/../filters/SessionFilter.h \
+ /home/kayotklimenko/code/auth-system-cpp/controllers/../filters/GuestSessionFilter.h \
  /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/sha256/sha256.h \
  /home/kayotklimenko/code/auth-system-cpp/controllers/../includes/validate/user.h \
  /usr/local/include/drogon/drogon.h \

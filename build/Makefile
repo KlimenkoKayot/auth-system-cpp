@@ -142,6 +142,30 @@ test_drogon_test/fast:
 	$(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_drogon_test.dir/build.make test/CMakeFiles/test_drogon_test.dir/build
 .PHONY : test_drogon_test/fast
 
+controllers/Admin.o: controllers/Admin.cc.o
+.PHONY : controllers/Admin.o
+
+# target to build an object file
+controllers/Admin.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o
+.PHONY : controllers/Admin.cc.o
+
+controllers/Admin.i: controllers/Admin.cc.i
+.PHONY : controllers/Admin.i
+
+# target to preprocess a source file
+controllers/Admin.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.i
+.PHONY : controllers/Admin.cc.i
+
+controllers/Admin.s: controllers/Admin.cc.s
+.PHONY : controllers/Admin.s
+
+# target to generate assembly for a file
+controllers/Admin.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.s
+.PHONY : controllers/Admin.cc.s
+
 controllers/Guest.o: controllers/Guest.cc.o
 .PHONY : controllers/Guest.o
 
@@ -189,6 +213,54 @@ controllers/User.s: controllers/User.cc.s
 controllers/User.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/controllers/User.cc.s
 .PHONY : controllers/User.cc.s
+
+filters/AdminSessionFilter.o: filters/AdminSessionFilter.cc.o
+.PHONY : filters/AdminSessionFilter.o
+
+# target to build an object file
+filters/AdminSessionFilter.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o
+.PHONY : filters/AdminSessionFilter.cc.o
+
+filters/AdminSessionFilter.i: filters/AdminSessionFilter.cc.i
+.PHONY : filters/AdminSessionFilter.i
+
+# target to preprocess a source file
+filters/AdminSessionFilter.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.i
+.PHONY : filters/AdminSessionFilter.cc.i
+
+filters/AdminSessionFilter.s: filters/AdminSessionFilter.cc.s
+.PHONY : filters/AdminSessionFilter.s
+
+# target to generate assembly for a file
+filters/AdminSessionFilter.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.s
+.PHONY : filters/AdminSessionFilter.cc.s
+
+filters/GuestSessionFilter.o: filters/GuestSessionFilter.cc.o
+.PHONY : filters/GuestSessionFilter.o
+
+# target to build an object file
+filters/GuestSessionFilter.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o
+.PHONY : filters/GuestSessionFilter.cc.o
+
+filters/GuestSessionFilter.i: filters/GuestSessionFilter.cc.i
+.PHONY : filters/GuestSessionFilter.i
+
+# target to preprocess a source file
+filters/GuestSessionFilter.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.i
+.PHONY : filters/GuestSessionFilter.cc.i
+
+filters/GuestSessionFilter.s: filters/GuestSessionFilter.cc.s
+.PHONY : filters/GuestSessionFilter.s
+
+# target to generate assembly for a file
+filters/GuestSessionFilter.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.s
+.PHONY : filters/GuestSessionFilter.cc.s
 
 filters/SessionFilter.o: filters/SessionFilter.cc.o
 .PHONY : filters/SessionFilter.o
@@ -382,6 +454,30 @@ signup.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/signup.cc.s
 .PHONY : signup.cc.s
 
+userbase.o: userbase.cc.o
+.PHONY : userbase.o
+
+# target to build an object file
+userbase.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/userbase.cc.o
+.PHONY : userbase.cc.o
+
+userbase.i: userbase.cc.i
+.PHONY : userbase.i
+
+# target to preprocess a source file
+userbase.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/userbase.cc.i
+.PHONY : userbase.cc.i
+
+userbase.s: userbase.cc.s
+.PHONY : userbase.s
+
+# target to generate assembly for a file
+userbase.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/auth-system-cpp.dir/build.make CMakeFiles/auth-system-cpp.dir/userbase.cc.s
+.PHONY : userbase.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -392,12 +488,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... auth-system-cpp"
 	@echo "... test_drogon_test"
+	@echo "... controllers/Admin.o"
+	@echo "... controllers/Admin.i"
+	@echo "... controllers/Admin.s"
 	@echo "... controllers/Guest.o"
 	@echo "... controllers/Guest.i"
 	@echo "... controllers/Guest.s"
 	@echo "... controllers/User.o"
 	@echo "... controllers/User.i"
 	@echo "... controllers/User.s"
+	@echo "... filters/AdminSessionFilter.o"
+	@echo "... filters/AdminSessionFilter.i"
+	@echo "... filters/AdminSessionFilter.s"
+	@echo "... filters/GuestSessionFilter.o"
+	@echo "... filters/GuestSessionFilter.i"
+	@echo "... filters/GuestSessionFilter.s"
 	@echo "... filters/SessionFilter.o"
 	@echo "... filters/SessionFilter.i"
 	@echo "... filters/SessionFilter.s"
@@ -422,6 +527,9 @@ help:
 	@echo "... signup.o"
 	@echo "... signup.i"
 	@echo "... signup.s"
+	@echo "... userbase.o"
+	@echo "... userbase.i"
+	@echo "... userbase.s"
 .PHONY : help
 
 

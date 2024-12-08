@@ -29,6 +29,7 @@ std::string signin::genText(const DrTemplateData& signin_view_data)
 	signin_tmp_stream << "            <form class=\"text-center\" action=\"/guest/signin\" method=\"post\">\n";
 	signin_tmp_stream << "                <input class=\"form-control\" type=\"text\" placeholder=\"Логин\" name=\"login\">\n";
 	signin_tmp_stream << "                <input class=\"form-control\" type=\"password\" placeholder=\"Пароль\" name=\"password\">\n";
+	signin_tmp_stream << "                <input class=\"form-control\" type=\"password\" placeholder=\"Пароль\" name=\"password_confirm\">\n";
 	signin_tmp_stream << "                <button class=\"btn btn-primary\" type=\"submit\">Войти</button>\n";
 	signin_tmp_stream << "            </form>\n";
 	signin_tmp_stream << "            <a href=\"http://127.0.0.1:8080/guest/signup\" class=\"btn btn-info\" role=\"button\">Sign Up</a>\n";

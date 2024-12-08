@@ -1,8 +1,14 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o"
+  "CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o.d"
   "CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o"
   "CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o.d"
   "CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o"
   "CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o.d"
+  "CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o"
+  "CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o.d"
+  "CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o"
+  "CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o.d"
   "CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o"
   "CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o.d"
   "CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o"
@@ -19,6 +25,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/auth-system-cpp.dir/signin.cc.o.d"
   "CMakeFiles/auth-system-cpp.dir/signup.cc.o"
   "CMakeFiles/auth-system-cpp.dir/signup.cc.o.d"
+  "CMakeFiles/auth-system-cpp.dir/userbase.cc.o"
+  "CMakeFiles/auth-system-cpp.dir/userbase.cc.o.d"
   "auth-system-cpp"
   "auth-system-cpp.pdb"
   "openspace.cc"
@@ -27,6 +35,8 @@ file(REMOVE_RECURSE
   "signin.h"
   "signup.cc"
   "signup.h"
+  "userbase.cc"
+  "userbase.h"
 )
 
 # Per-language clean rules from dependency scanning.

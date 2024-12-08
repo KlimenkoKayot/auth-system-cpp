@@ -10,6 +10,7 @@
             <form class="text-center" action="/guest/signin" method="post">
                 <input class="form-control" type="text" placeholder="Логин" name="login">
                 <input class="form-control" type="password" placeholder="Пароль" name="password">
+                <input class="form-control" type="password" placeholder="Пароль" name="password_confirm">
                 <button class="btn btn-primary" type="submit">Войти</button>
             </form>
             <a href="http://127.0.0.1:8080/guest/signup" class="btn btn-info" role="button">Sign Up</a>

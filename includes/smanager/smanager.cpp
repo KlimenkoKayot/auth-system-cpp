@@ -37,3 +37,21 @@ void SessionManager::CloseSession(const drogon::HttpRequestPtr &req) noexcept
         req->session()->erase(VDate);
     }
 }
+
+bool SessionManager::CheckSession(const drogon::HttpRequestPtr &req) noexcept
+{
+    if (!req->session()->find(SID)) {
+        return false;
+    }
+    if (!req->session()->find(VDate)) {
+        // Ломаная сессия, закрываем
+        CloseSession(req);
+        return false;
+    }
+    if (trantor::Date::date() > req->session()->get<trantor::Date>(VDate).after(24 * 60 * 60)) {
+        // Session timeout 24 hours, удаляем закрываем сессию
+        CloseSession(req);
+        return false;
+    }
+    return true;
+}

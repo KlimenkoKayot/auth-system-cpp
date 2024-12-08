@@ -90,10 +90,17 @@ signup.h: /home/kayotklimenko/code/auth-system-cpp/views/signup.csp
 signup.cc: signup.h
 	@$(CMAKE_COMMAND) -E touch_nocreate signup.cc
 
+userbase.h: /home/kayotklimenko/code/auth-system-cpp/views/userbase.csp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating userbase.h, userbase.cc"
+	cd /home/kayotklimenko/code/auth-system-cpp && drogon_ctl create view views/userbase.csp -o /home/kayotklimenko/code/auth-system-cpp/build
+
+userbase.cc: userbase.h
+	@$(CMAKE_COMMAND) -E touch_nocreate userbase.cc
+
 CMakeFiles/auth-system-cpp.dir/main.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/main.cc.o: /home/kayotklimenko/code/auth-system-cpp/main.cc
 CMakeFiles/auth-system-cpp.dir/main.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/auth-system-cpp.dir/main.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/auth-system-cpp.dir/main.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/main.cc.o -MF CMakeFiles/auth-system-cpp.dir/main.cc.o.d -o CMakeFiles/auth-system-cpp.dir/main.cc.o -c /home/kayotklimenko/code/auth-system-cpp/main.cc
 
 CMakeFiles/auth-system-cpp.dir/main.cc.i: cmake_force
@@ -107,7 +114,7 @@ CMakeFiles/auth-system-cpp.dir/main.cc.s: cmake_force
 CMakeFiles/auth-system-cpp.dir/openspace.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/openspace.cc.o: openspace.cc
 CMakeFiles/auth-system-cpp.dir/openspace.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/auth-system-cpp.dir/openspace.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/auth-system-cpp.dir/openspace.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/openspace.cc.o -MF CMakeFiles/auth-system-cpp.dir/openspace.cc.o.d -o CMakeFiles/auth-system-cpp.dir/openspace.cc.o -c /home/kayotklimenko/code/auth-system-cpp/build/openspace.cc
 
 CMakeFiles/auth-system-cpp.dir/openspace.cc.i: cmake_force
@@ -121,7 +128,7 @@ CMakeFiles/auth-system-cpp.dir/openspace.cc.s: cmake_force
 CMakeFiles/auth-system-cpp.dir/signin.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/signin.cc.o: signin.cc
 CMakeFiles/auth-system-cpp.dir/signin.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/auth-system-cpp.dir/signin.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/auth-system-cpp.dir/signin.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/signin.cc.o -MF CMakeFiles/auth-system-cpp.dir/signin.cc.o.d -o CMakeFiles/auth-system-cpp.dir/signin.cc.o -c /home/kayotklimenko/code/auth-system-cpp/build/signin.cc
 
 CMakeFiles/auth-system-cpp.dir/signin.cc.i: cmake_force
@@ -135,7 +142,7 @@ CMakeFiles/auth-system-cpp.dir/signin.cc.s: cmake_force
 CMakeFiles/auth-system-cpp.dir/signup.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/signup.cc.o: signup.cc
 CMakeFiles/auth-system-cpp.dir/signup.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/auth-system-cpp.dir/signup.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/auth-system-cpp.dir/signup.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/signup.cc.o -MF CMakeFiles/auth-system-cpp.dir/signup.cc.o.d -o CMakeFiles/auth-system-cpp.dir/signup.cc.o -c /home/kayotklimenko/code/auth-system-cpp/build/signup.cc
 
 CMakeFiles/auth-system-cpp.dir/signup.cc.i: cmake_force
@@ -146,10 +153,38 @@ CMakeFiles/auth-system-cpp.dir/signup.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/auth-system-cpp.dir/signup.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kayotklimenko/code/auth-system-cpp/build/signup.cc -o CMakeFiles/auth-system-cpp.dir/signup.cc.s
 
+CMakeFiles/auth-system-cpp.dir/userbase.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
+CMakeFiles/auth-system-cpp.dir/userbase.cc.o: userbase.cc
+CMakeFiles/auth-system-cpp.dir/userbase.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/auth-system-cpp.dir/userbase.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/userbase.cc.o -MF CMakeFiles/auth-system-cpp.dir/userbase.cc.o.d -o CMakeFiles/auth-system-cpp.dir/userbase.cc.o -c /home/kayotklimenko/code/auth-system-cpp/build/userbase.cc
+
+CMakeFiles/auth-system-cpp.dir/userbase.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/auth-system-cpp.dir/userbase.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kayotklimenko/code/auth-system-cpp/build/userbase.cc > CMakeFiles/auth-system-cpp.dir/userbase.cc.i
+
+CMakeFiles/auth-system-cpp.dir/userbase.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/auth-system-cpp.dir/userbase.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kayotklimenko/code/auth-system-cpp/build/userbase.cc -o CMakeFiles/auth-system-cpp.dir/userbase.cc.s
+
+CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
+CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o: /home/kayotklimenko/code/auth-system-cpp/controllers/Admin.cc
+CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o -MF CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o.d -o CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o -c /home/kayotklimenko/code/auth-system-cpp/controllers/Admin.cc
+
+CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kayotklimenko/code/auth-system-cpp/controllers/Admin.cc > CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.i
+
+CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kayotklimenko/code/auth-system-cpp/controllers/Admin.cc -o CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.s
+
 CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o: /home/kayotklimenko/code/auth-system-cpp/controllers/Guest.cc
 CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o -MF CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o.d -o CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o -c /home/kayotklimenko/code/auth-system-cpp/controllers/Guest.cc
 
 CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.i: cmake_force
@@ -163,7 +198,7 @@ CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.s: cmake_force
 CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o: /home/kayotklimenko/code/auth-system-cpp/controllers/User.cc
 CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o -MF CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o.d -o CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o -c /home/kayotklimenko/code/auth-system-cpp/controllers/User.cc
 
 CMakeFiles/auth-system-cpp.dir/controllers/User.cc.i: cmake_force
@@ -174,10 +209,38 @@ CMakeFiles/auth-system-cpp.dir/controllers/User.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/auth-system-cpp.dir/controllers/User.cc.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kayotklimenko/code/auth-system-cpp/controllers/User.cc -o CMakeFiles/auth-system-cpp.dir/controllers/User.cc.s
 
+CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
+CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o: /home/kayotklimenko/code/auth-system-cpp/filters/AdminSessionFilter.cc
+CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o -MF CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o.d -o CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o -c /home/kayotklimenko/code/auth-system-cpp/filters/AdminSessionFilter.cc
+
+CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kayotklimenko/code/auth-system-cpp/filters/AdminSessionFilter.cc > CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.i
+
+CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kayotklimenko/code/auth-system-cpp/filters/AdminSessionFilter.cc -o CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.s
+
+CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
+CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o: /home/kayotklimenko/code/auth-system-cpp/filters/GuestSessionFilter.cc
+CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o -MF CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o.d -o CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o -c /home/kayotklimenko/code/auth-system-cpp/filters/GuestSessionFilter.cc
+
+CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kayotklimenko/code/auth-system-cpp/filters/GuestSessionFilter.cc > CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.i
+
+CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kayotklimenko/code/auth-system-cpp/filters/GuestSessionFilter.cc -o CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.s
+
 CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o: /home/kayotklimenko/code/auth-system-cpp/filters/SessionFilter.cc
 CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o -MF CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o.d -o CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o -c /home/kayotklimenko/code/auth-system-cpp/filters/SessionFilter.cc
 
 CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.i: cmake_force
@@ -191,7 +254,7 @@ CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.s: cmake_force
 CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o: /home/kayotklimenko/code/auth-system-cpp/includes/smanager/smanager.cpp
 CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o -MF CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o.d -o CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o -c /home/kayotklimenko/code/auth-system-cpp/includes/smanager/smanager.cpp
 
 CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.i: cmake_force
@@ -205,7 +268,7 @@ CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.s: cmake_force
 CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o: /home/kayotklimenko/code/auth-system-cpp/includes/sha256/sha256.cpp
 CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o -MF CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o.d -o CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o -c /home/kayotklimenko/code/auth-system-cpp/includes/sha256/sha256.cpp
 
 CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.i: cmake_force
@@ -219,7 +282,7 @@ CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.s: cmake_force
 CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o: CMakeFiles/auth-system-cpp.dir/flags.make
 CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o: /home/kayotklimenko/code/auth-system-cpp/includes/validate/user.cpp
 CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o: CMakeFiles/auth-system-cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o -MF CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o.d -o CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.o -c /home/kayotklimenko/code/auth-system-cpp/includes/validate/user.cpp
 
 CMakeFiles/auth-system-cpp.dir/includes/validate/user.cpp.i: cmake_force
@@ -236,8 +299,12 @@ auth__system__cpp_OBJECTS = \
 "CMakeFiles/auth-system-cpp.dir/openspace.cc.o" \
 "CMakeFiles/auth-system-cpp.dir/signin.cc.o" \
 "CMakeFiles/auth-system-cpp.dir/signup.cc.o" \
+"CMakeFiles/auth-system-cpp.dir/userbase.cc.o" \
+"CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o" \
 "CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o" \
 "CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o" \
+"CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o" \
+"CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o" \
 "CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o" \
 "CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o" \
 "CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o" \
@@ -250,8 +317,12 @@ auth-system-cpp: CMakeFiles/auth-system-cpp.dir/main.cc.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/openspace.cc.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/signin.cc.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/signup.cc.o
+auth-system-cpp: CMakeFiles/auth-system-cpp.dir/userbase.cc.o
+auth-system-cpp: CMakeFiles/auth-system-cpp.dir/controllers/Admin.cc.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/controllers/Guest.cc.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/controllers/User.cc.o
+auth-system-cpp: CMakeFiles/auth-system-cpp.dir/filters/AdminSessionFilter.cc.o
+auth-system-cpp: CMakeFiles/auth-system-cpp.dir/filters/GuestSessionFilter.cc.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/filters/SessionFilter.cc.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/includes/smanager/smanager.cpp.o
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/includes/sha256/sha256.cpp.o
@@ -266,7 +337,7 @@ auth-system-cpp: /lib64/libossp-uuid.so
 auth-system-cpp: /usr/lib64/libpq.so
 auth-system-cpp: /usr/lib64/libz.so
 auth-system-cpp: CMakeFiles/auth-system-cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable auth-system-cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Linking CXX executable auth-system-cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/auth-system-cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -283,6 +354,8 @@ CMakeFiles/auth-system-cpp.dir/depend: signin.cc
 CMakeFiles/auth-system-cpp.dir/depend: signin.h
 CMakeFiles/auth-system-cpp.dir/depend: signup.cc
 CMakeFiles/auth-system-cpp.dir/depend: signup.h
+CMakeFiles/auth-system-cpp.dir/depend: userbase.cc
+CMakeFiles/auth-system-cpp.dir/depend: userbase.h
 	cd /home/kayotklimenko/code/auth-system-cpp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kayotklimenko/code/auth-system-cpp /home/kayotklimenko/code/auth-system-cpp /home/kayotklimenko/code/auth-system-cpp/build /home/kayotklimenko/code/auth-system-cpp/build /home/kayotklimenko/code/auth-system-cpp/build/CMakeFiles/auth-system-cpp.dir/DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/auth-system-cpp.dir/depend
 

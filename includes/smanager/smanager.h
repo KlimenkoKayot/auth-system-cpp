@@ -12,4 +12,6 @@ namespace SessionManager
     void OpenSession(const drogon::HttpRequestPtr &req, const std::string &login) noexcept;
     // Закрывает сессию пользователя
     void CloseSession(const drogon::HttpRequestPtr &req) noexcept;
+    // Проверяет активность сессии пользователя
+    bool CheckSession(const drogon::HttpRequestPtr &req) noexcept;
 }

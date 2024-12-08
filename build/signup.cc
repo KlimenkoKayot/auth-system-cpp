@@ -28,8 +28,8 @@ std::string signup::genText(const DrTemplateData& signup_view_data)
 	signup_tmp_stream << "        <div class=\"d-flex flex-column justify-content-center align-items-center justif-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center\" style=\"position: absolute;width: 100%;height: 100%; color: var(--bs-body-bg); background: var(--bs-secondary-color);\">\n";
 	signup_tmp_stream << "            <form class=\"text-center\" action=\"/guest/signup\" method=\"post\">\n";
 	signup_tmp_stream << "                <input class=\"form-control\" type=\"text\" placeholder=\"Логин\" name=\"login\">\n";
-	signup_tmp_stream << "                <input class=\"form-control\" type=\"email\" placeholder=\"Почта\" name=\"mail\">\n";
 	signup_tmp_stream << "                <input class=\"form-control\" type=\"password\" placeholder=\"Пароль\" name=\"password\">\n";
+	signup_tmp_stream << "                <input class=\"form-control\" type=\"password\" placeholder=\"Пароль\" name=\"password_confirm\">\n";
 	signup_tmp_stream << "                <button class=\"btn btn-primary\" type=\"submit\">Создать</button>\n";
 	signup_tmp_stream << "            </form>\n";
 	signup_tmp_stream << "            <a href=\"http://127.0.0.1:8080/guest/signin\" class=\"btn btn-info\" role=\"button\">Sign In</a>\n";

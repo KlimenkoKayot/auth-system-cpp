@@ -59,7 +59,7 @@ void Guest::SignUp(const HttpRequestPtr &req,
         // SHA256 вместо пароля
         string hashedData = SHA256().hash(login+password);
         // добавляем пользователя
-        auto result = clientPtr->execSqlSync("INSERT INTO userbase(login, hash) VALUES($1, $2)", login, hashedData);
+        auto result = clientPtr->execSqlSync("INSERT INTO userbase(login, hash, datetime) VALUES($1, $2, $3)", login, hashedData, trantor::Date::date());
         // логирование
         std::cout << "SHA256 -> " << hashedData << " | " << result.affectedRows() << " | " << "new user!" << " | " << login << std::endl;
         /*
