@@ -1,3 +1,2 @@
 **\.d linguist-vendored
-**\.cc.o.d linguist-documentation
-**\Makefile linguist-vendored
+**\.make linguist-vendored
