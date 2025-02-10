@@ -1,1 +1,2 @@
 *.o.d linguist-vendored
+*.cc.o.d linguist-vendored
